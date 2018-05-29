@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 const mapStateToProps = (state) => {
 	return {
 		title: state.carousel.title,
+		slides: state.carousel.carouselSlidesData,
 	};
 };
 

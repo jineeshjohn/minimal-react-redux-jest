@@ -1,0 +1,6 @@
+
+
+// carousel
+export const CAROUSEL_REQUEST = 'CAROUSEL_REQUEST';
+export const CAROUSEL_RESPONSE = 'CAROUSEL_RESPONSE';
+export const CAROUSEL_FAILURE = 'CAROUSEL_FAILURE';

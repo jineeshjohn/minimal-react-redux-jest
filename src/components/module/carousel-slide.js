@@ -9,17 +9,14 @@ const CarouselSlide = (props) => (
 				: 'carousel__slide'
 		}
 	>
-		<p className="carousel-slide__content">{props.slide.content}</p>
-
-		<p>
-			<strong className="carousel-slide__author">
-				{props.slide.author}
-			</strong>,
-			{' '}
-			<small className="carousel-slide__source">
-				{props.slide.source}
-			</small>
-		</p>
+		<p className="carousel-slide__content">{props.slide.title}</p>
+		{/* <div className="c100 p84 big">
+			<span>{props.slide.title}</span>
+			<div className="slice">
+				<div className="bar" />
+				<div className="fill" />
+			</div>
+		</div> */}
 	</li>
 );
 
